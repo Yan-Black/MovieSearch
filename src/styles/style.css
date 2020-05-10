@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url('./src/assets/images/background.jpg');
+    background-image: url('../assets/images/background.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,7 +17,7 @@ body {
 
 .header {
     height: 100px;
-    background-image: url('./src/assets/images/header5.jpg');
+    background-image: url('../assets/images/header5.jpg');
     background-repeat: no-repeat;
     background-position: 0 0%;
     display: flex;
@@ -213,7 +213,7 @@ input[type="submit"]:hover {
   left: 0;
   height: 400px;
   width: 250px;
-  background-image: url('./src/assets/images/frame.jpg');
+  background-image: url('../assets/images/frame.jpg');
 }
 
 .movie-poster::after {
@@ -262,7 +262,7 @@ input[type="submit"]:hover {
 }
 
 .license:last-child::before {
-    content: url('./src/assets/images/git.png');
+    content: url('../assets/images/git.png');
     margin-right: 10px;
 }
 
@@ -274,7 +274,7 @@ input[type="submit"]:hover {
     padding-left: 10%;
     padding-right: 10%;
     border-top: 6px solid #0008;
-    background-image: url('./src/assets/images/header5.jpg');
+    background-image: url('../assets/images/header5.jpg');
     background-repeat: no-repeat;
     background-position: 0 90%;
     display: flex;

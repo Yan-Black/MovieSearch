@@ -1,3 +1,5 @@
+import star from './assets/images/star-win.svg';
+
 export default class Slide {
   constructor(url) {
     this.url = url;
@@ -31,7 +33,7 @@ export default class Slide {
     rating.classList.add('rating');
     rating.innerText = rat || 'N/A';
 
-    starImage.setAttribute('src', '/src/assets/images/star-win.svg');
+    starImage.setAttribute('src', star);
 
     ratingWrapper.append(starImage, rating);
     infoWrapper.append(productDate, ratingWrapper);
