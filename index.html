@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/assets/images/favicon.ico" type="image/x-icon">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/src/keyboard/keyboard.css">
+    <title>Movie Search</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo"><a class="logo-link" href="">Movie Search</a></h1>
+    </header>
+    <section class="content">
+        <div class="content__search">
+          <form action="" id="searchForm">
+            <i class="fas fa-redo icon-loader hide"></i>
+            <input type="text" id="movie-search" name="movie-search"
+            autofocus autocomplete="off" placeholder="Search movie"
+            maxlength="50">
+            <button class="form-button-clear"><i class="fas fa-times icon-clear"></i></button>
+            <button class="form-button-keyboard"><i class="far fa-keyboard icon"></i></button>
+            <input type="submit" id="submit" value="Search">
+          </form>
+        </div>
+        <span class="error unvisible">waiting for results...</span>
+        <div class="content__slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="license">RS School 2020q1</p>
+        <p class="license">Yan-Black</p>
+    </footer>
+</body>
+</html>
