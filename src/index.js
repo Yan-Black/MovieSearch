@@ -1,6 +1,7 @@
 import Slide from './Slide';
 import mySwiper from './swiper';
 import keyboard from './keyboard/Entry';
+import "/node_modules/swiper/css/swiper.min.css";
 // 9d3591e0;
 
 const contentWrapper = document.querySelector('.content');
