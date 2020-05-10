@@ -12,19 +12,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-            options: {
-              hmr: process.env.NODE_ENV === 'development',
-            },
-          },
-          'style-loader',
-          'css-loader',
-        ],
+        test: /\.css$/i,
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
-      // { enforce: 'pre', test: /\.js$/, loader: 'eslint-loader' },
       {
         test: /\.m?js$/,
         exclude: /(node_modules|bower_components)/,

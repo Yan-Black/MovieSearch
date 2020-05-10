@@ -1,8 +1,8 @@
 import Slide from './Slide';
 import mySwiper from './swiper';
 import keyboard from './keyboard/Entry';
-import "/node_modules/swiper/css/swiper.min.css";
-// 9d3591e0;
+import '../style.css';
+import './keyboard/keyboard.css';
 
 const contentWrapper = document.querySelector('.content');
 const footer = document.querySelector('.footer');

@@ -1,4 +1,5 @@
 import Swiper from 'swiper';
+import 'swiper/css/swiper.min.css';
 
 const mySwiper = new Swiper('.swiper-container', {
   direction: 'horizontal',
