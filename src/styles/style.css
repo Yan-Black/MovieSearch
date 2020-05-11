@@ -124,7 +124,7 @@ body {
     transition: 0.3s;
 }
 
-input[type="submit"]:hover {
+#submit:hover {
   background-color: #860516;
 }
 
@@ -161,8 +161,17 @@ input[type="submit"]:hover {
 }
 
 .slide-fade {
-  transition: .3s;
-  opacity: 0;
+  animation-name: close;
+  animation-duration: .5s;
+}
+
+@keyframes close {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 .swiper-button-prev, .swiper-button-next {
